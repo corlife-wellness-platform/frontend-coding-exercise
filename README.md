@@ -7,7 +7,9 @@ Feel free to add any comments to the tasks below; if you found anything particul
 
 First fork this repo, clone it, install any dependencies and run on either the iOS Simulator, Android Emulator or a real device.
 
-Once you've finished, commit and push to your fork and send a link to the fork back to us.
+Next, try to add a commit per task and then open a pull request into your main branch, so we can more easily see your changes.
+
+Once you've finished, send a link to the fork back to us.
 
 You don't need to spend more than a couple of hours on this and don't worry about completing everything.
 
