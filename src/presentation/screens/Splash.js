@@ -29,6 +29,7 @@ export const Splash = () => {
   }, [navigation, data]);
 
   /*TODO TASK 02*/
+  /*TODO TASK 08*/
   return <SafeAreaView style={styles.container} edges={['right', 'left']} />;
 };
 

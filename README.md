@@ -52,6 +52,12 @@ Fix the test Home.test.js so that it correctly asserts the existence of each Par
 
 Comments:
 
+### TASK 08:
+
+Animate the Splash logo - you can be as creative as you like here, but ensure that the animation duration is 1000ms.
+
+Comments:
+
 
 
 Any other feedback? Feel free to let us know!
