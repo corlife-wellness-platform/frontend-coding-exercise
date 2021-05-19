@@ -15,16 +15,18 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   participantList: {
-    padding: 20,
+    padding: 10,
   },
   participant: {
     flexDirection: 'row',
-    padding: 20,
+    padding: 10,
+    alignItems: 'center',
   },
   image: {
     width: 40,
     height: 40,
     borderRadius: 20,
+    marginRight: 20,
   },
 });
 
@@ -41,7 +43,7 @@ export const Home = () => {
           renderItem={({item}) => (
             /*TODO TASK 04*/
             <TouchableOpacity style={styles.participant}>
-              <Image style={styles.image}>{item.image}</Image>
+              <Image source={{uri: item.image}} style={styles.image} />
               <Text>{item.name}</Text>
             </TouchableOpacity>
           )}
