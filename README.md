@@ -15,7 +15,7 @@ You don't need to spend more than a couple of hours on this and don't worry abou
 
 
 ### TASK 01
-Rename the title of the Home screen component from "Home" to "Participants".
+Rename the title in the NavBar of the Home screen component from "Home" to "Participants".
 
 Comments: 
 
@@ -30,13 +30,13 @@ There is a console warning message on the Home screen component - try to fix thi
 Comments:
 
 ### TASK 04
-Add navigation from each Participant in the list of Participants to the Participant detail screen component. You will need to pass each `participant` object, so that the Participant detail screen component can access this data.
+Add navigation from each Participant in the list of Participants to the Participant detail screen component.
 
 Comments:
 
 ### TASK 05: 
 
-Add the `gender` field to the GraphQL query `character` and display this in the Participant detail screen component. You should ensure name is left-aligned and the gender is right-aligned,
+Add the `origin`, `status`, `gender` and `species` fields to the GraphQL query `character` and display these in the Participant detail screen component. You should follow the attached design wireframe.png.
 
 Comments:
 
