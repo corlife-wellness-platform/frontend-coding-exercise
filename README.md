@@ -34,25 +34,25 @@ Add navigation from each Participant in the list of Participants to the Particip
 
 Comments:
 
-### TASK 05: 
+### TASK 05
 
 Add the `origin`, `status`, `gender` and `species` fields to the GraphQL query `character` and display these in the Participant detail screen component. You should follow the attached design wireframe.png.
 
 Comments:
 
-### TASK 06: 
+### TASK 06
 
 There's an issue in building for Android; try to fix this. Run `yarn run android` to build for Android.
 
 Comments:
 
-### TASK 07:
+### TASK 07
 
 Fix the test Home.test.js so that it correctly asserts the existence of each Participant in the list.
 
 Comments:
 
-### TASK 08:
+### TASK 08
 
 Animate the Splash logo - you can be as creative as you like here, but ensure that the animation duration is 1000ms.
 
