@@ -5,6 +5,7 @@ export const GET_PARTICIPANTS = gql`
     characters {
       results {
         name
+        image
       }
     }
   }
