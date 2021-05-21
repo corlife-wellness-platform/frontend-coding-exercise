@@ -40,10 +40,11 @@ export const Home = () => {
         <FlatList
           style={styles.participantList}
           data={data.characters.results}
+          keyExtractor={(item) => item.id}
           renderItem={({item}) => (
             /*TODO TASK 04*/
             <TouchableOpacity style={styles.participant}>
-              <Image source={{uri: item.image}} style={styles.image} />
+               <Image source={{uri: item.image}} style={styles.image} /> 
               <Text>{item.name}</Text>
             </TouchableOpacity>
           )}
