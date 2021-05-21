@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export const Home = () => {
+export const Home = ({navigation}) => {
   const {data} = useQuery(GET_PARTICIPANTS);
 
   /*TODO TASK 03*/
@@ -43,7 +43,7 @@ export const Home = () => {
           keyExtractor={(item) => item.id}
           renderItem={({item}) => (
             /*TODO TASK 04*/
-            <TouchableOpacity style={styles.participant}>
+            <TouchableOpacity style={styles.participant} onPress={()=> navigation.navigate('Participant', item)}>
                <Image source={{uri: item.image}} style={styles.image} /> 
               <Text>{item.name}</Text>
             </TouchableOpacity>
