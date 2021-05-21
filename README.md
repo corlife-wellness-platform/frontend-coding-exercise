@@ -5,11 +5,15 @@ Welcome!
 We have the following tasks for you to attempt. You'll find each task marked as a TODO in the codebase. If you're using webstorm, you can find these using the TODO find. 
 Feel free to add any comments to the tasks below; if you found anything particularly challenging, for example.
 
-First fork this repo, clone it, install any dependencies and run on either the iOS Simulator, Android Emulator or a real device.
+First clone this repo, install any dependencies and run on either the iOS Simulator, Android Emulator or a real device.
 
-Next, try to add a commit per task and then open a pull request into your main branch, so we can more easily see your changes.
+Before you start any work, create a repo on your own github account and [change the remote of this test to your own repo](https://gist.github.com/DianaEromosele/fa228f6f6099a8996d3cb891109ab975).
 
-Once you've finished, send a link to the fork back to us.
+Next, create your own branch and try to add a commit per task. 
+
+Once you've finished, open a pull request into your main branch (so we can more easily see your changes) send a link to your repo back to us.
+
+Please do not fork this repo or open a pull request directly into it.
 
 You don't need to spend more than a couple of hours on this and don't worry about completing everything.
 
