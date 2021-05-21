@@ -30,7 +30,7 @@ export default function App() {
             name="Home"
             component={Home}
           />
-          <Stack.Screen name="Participant" component={Participant} />
+          <Stack.Screen name="Participant" component={Participant} options={({route}) => ({title: route.params.name})} />
         </Stack.Navigator>
       </NavigationContainer>
     </ApolloProvider>
