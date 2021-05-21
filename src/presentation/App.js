@@ -26,7 +26,7 @@ export default function App() {
           />
           <Stack.Screen
             /*TODO TASK 01*/
-            options={{animationEnabled: false}}
+            options={{title: 'Participants', animationEnabled: false}}
             name="Home"
             component={Home}
           />
