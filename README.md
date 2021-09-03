@@ -58,7 +58,7 @@ Comments:
 
 ### TASK 08
 
-Animate the Splash logo - you can be as creative as you like here, but ensure that the animation duration is 1000ms.
+Animate the Splash logo - you can be as creative as you like here, but ensure that the animation duration is at least 1000ms.
 
 Comments:
 
